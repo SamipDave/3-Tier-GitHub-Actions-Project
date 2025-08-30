@@ -77,7 +77,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: SonarQube Scan (client)
-        uses: sonarsource/sonarqube-scan-action@master
+        uses: sonarsource/sonarqube-scan-action@v2
         with:
           projectBaseDir: client        # 👈 instead of working-directory
           args: >
